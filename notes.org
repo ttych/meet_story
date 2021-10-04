@@ -39,19 +39,19 @@
     Then
 *** 2005 to 2014: User-story mapping
     by Jeff Patton
-** So
-*** Appears in the same time as the Agile Manifesto
-*** Make work visible
-*** Conversation over Contract
-*** Confirmation / Acceptance
-*** end-user focus / value
-** Early before doing
-*** identify the value
-*** identify end-user
-*** identify when completed
-** During this time ... Scrum
-*** 2010: first version of the Scrum Guide is published.
-*** 2020: latest release of The Scrum Guide.
+*** During this time ... Scrum
+**** 2010: first version of the Scrum Guide is published.
+**** 2020: latest release of The Scrum Guide.
+*** So
+**** Appears in the same time as the Agile Manifesto
+**** Make work visible (transparency)
+**** end-user focus / value focus
+**** Conversation over Contract
+**** Confirmation / Acceptance
+*** Early before doing
+**** identify the value
+**** identify end-user
+**** identify when completed
 ** Story
 *** What is a user story ?
 **** smallest piece work that has a value to the end-user
@@ -206,8 +206,8 @@
 *** How this is done is at the sole discretion of the Developers.
 *** Notion of "ready" for a Product Backlog Item
 Product Backlog refinement is the act of breaking down and further defining Product Backlog 
-items into smaller more precise items. 
-
+items into smaller more precise items.
+*** good story => transparency => inspection => adaptation
 ** And Jira ...
 *** EPIC > STORY > SUB-TASK
 *** No value in sub-task
@@ -219,3 +219,6 @@ items into smaller more precise items.
 
 
 # FIXME : 13 min
+** Next
+*** feedback / Roti ?
+*** 
