@@ -1,0 +1,221 @@
+#+TITLE: 
+#+AUTHOR: 
+#+DATE: 
+#+STARTUP: content
+
+* ToDo
+* Story
+** Basic Definition
+  A story is an informal, natural language description of features.
+  May be written by different stakeholders like client, user, manager, or
+  development team.
+** History
+*** 1999: eXtreme Programming and the usage of user stories in the planning game.
+    by Kent Beck.
+    - fit on one card.
+    - implemented one by one.
+    - made from user's perspective.
+    - implementable in 1 week or less.
+    + the conversation.
+*** 2001: 3C formula for user story creation.
+    by Ron Jeffries.
+    Card: a tangible physical token to hold the concepts.
+    Conversation: between all parts (details, verbal).
+    Confirmation: objectives of the conversation have been reached.
+*** 2001: Connextra template
+    by Rachel Davies & Tim McKinnon
+    As a <role>,
+    I can <capability>,
+    So that <receive benefit>.
+*** 2004: Generalization of the user story principles
+    by Mike Cohn
+    As a <role>,
+    I want <feature>,
+    In order to <receive benefit>.
+*** 2009: BDD and the Given-When-Then
+    by Dan North
+    Given
+    When
+    Then
+*** 2005 to 2014: User-story mapping
+    by Jeff Patton
+** So
+*** Appears in the same time as the Agile Manifesto
+*** Make work visible
+*** Conversation over Contract
+*** Confirmation / Acceptance
+*** end-user focus / value
+** Early before doing
+*** identify the value
+*** identify end-user
+*** identify when completed
+** During this time ... Scrum
+*** 2010: first version of the Scrum Guide is published.
+*** 2020: latest release of The Scrum Guide.
+** Story
+*** What is a user story ?
+**** smallest piece work that has a value to the end-user
+**** contains
+***** Statement
+      As a <role>,  <- WHO
+      I want <feature>,  <- WHAT
+      So that <benefit>.  <- WHY
+***** Description: to give context
+      - explanation of the user journey
+      - use cases
+      - general information
+      - pictures
+      - design
+***** Acceptence criteria <- HOW (VALIDATION)
+      - condition to validate the implementation of the user story
+*** Why do we write user story ?
+**** manage work
+     - estimate
+     - prioritize
+     - plan
+     - work in progress limit
+**** focus
+     - end-user
+     - business value
+**** collaborate
+     - creativity
+*** How do we write user story ?
+**** identify
+     end-user (a persona)
+     feature (one action)
+     benefit (measurable, contribute to a goal)
+**** INVEST
+     Independent: Standalone PBI with no dependencies.
+     Negotiable: It can be changed in anytime.
+     Valuable: Having a good value for the end-user.
+     Estimable: The teams is able to estimate its size.
+     Small: Small enough to be developed and tested.
+     Testable: Testing is possible from AC and DOD.
+*** Who write user story ?
+**** Product owner
+     - ensure the Product Backlog exists
+     - prioritize the user stories
+**** Anyone can contribute/write user stories
+*** When do we write user story ?
+**** during the all life of the product
+**** split when necessary, on the run
+     refinement, then ready for sprint
+*** Type of Story
+**** User Story
+**** Technical Story
+**** Bug
+**** Debt
+*** Estimate
+**** Story points
+     Story points are the effort to do something based on
+     the volume, risk, uncertainty and complexity of the work.
+**** Workshop: Planning Poker
+*** No Estimate
+**** Slicing not based on Story points
+     Neil Killick - 2016
+     Define Slicing Heuristics.
+
+     - Product Owner prioritises features.
+     - PO slices feature into user stories.
+     - "If feature contains more than 4 stories, it is sliced into 2 or more features".
+     - In Sprint Planning, team creates acceptance tests for each user story.
+     - "If there is more than 1 acceptance test, story is sliced into 2 or more stories".
+
+     Then:
+     - measure story cycle time, if longer than 3 days, flag for conversation.
+     - measure feature cycle time, if longer than is acceptable, adapt the heuristics.
+
+     https://neilkillick.medium.com/my-slicing-heuristic-concept-explained-810ee70b311e
+** Flow
+*** Vision (by Primary Stake-holder)
+    Define the target state.
+    ex:
+    - makes money
+    - saves money
+    - protects money
+*** Goal (needed vs. wanted) (by Incidental Stake-holder)
+    Needed to go live.
+*** Capability to (Business Analyst)
+    Users can achieve a business outcome.
+*** Feature (UI Designer)
+    User interface component which enables a capacity.
+*** Story (Developer)
+    A slice through a feature to enable faster feedback.
+*** Scenario (Dev/Tester/Analyst)
+    An example of how the system might behave from a user perspective.
+*** Implement (Developer)
+    Ideas turning into reality.
+** Refinement
+*** The 3 Amigos
+    3 perspectives with as small a group as possible
+    For example:
+    - product owner : business, value
+    - scrum : effectiveness
+    - developer : quality
+*** Definition of Ready
+    Example:
+    - "A feature ready to be worked on must consist of no more than 4 groomed user stories".
+    - “A user story ready to be worked on must have only one acceptance test”.
+** Splitting story
+*** Why
+**** easier to understand
+     so less miss-understanding on what is included or not
+**** helps to identifying waste
+     remove not essential / irrelevant scenarios
+**** provides faster feedback loop
+     small stories could be delivered sooner
+*** Focus
+    A user story is shippable and valuable to the customer.
+    When value will be delivered to the end-user ?
+    At the end of all sub-stories, then it is waterfall approach .
+*** (User) Story mapping
+    https://manifesto.co.uk/user-story-mapping/
+    https://jpattonassociates.com/user-story-mapping/
+    # FIXME
+*** Burger Split
+    # FIXME
+*** Example mapping
+    # FIXME
+** Backlog
+*** DEEP
+    Detailed
+    Estimated
+    Emergent
+    Prioritized
+*** Prioritization
+**** MoSCoW
+**** WSJF
+** Minimum product
+*** MVP
+    Minimum Viable Product will be the minimum product (or service) that will test a hypothesis.
+*** MMF
+    Minimum Marketable Feature
+*** MMP
+    Minimum Marketable Product is the first MMR.
+*** MMR
+    Minimum Marketable Release
+*** Relation
+  We test a product/service with the MVP.
+  If the hypothesis is validated, we define the essential minimum of each of the functionalities to be delivered to reach our customers: MMFs.
+  We define the minimum delivery that we will accept to launch the product: MMR (set of MMF).
+  The first MMR will be considered as the minimum product that will delivery to satisfy our key users: MMP (first MMR).
+** And Scrum
+*** not prescriptive on Story
+*** wording used: work, Product Backlog Item, Task
+*** This is often done by decomposing Product Backlog items into smaller work items of one day or less.
+*** How this is done is at the sole discretion of the Developers.
+*** Notion of "ready" for a Product Backlog Item
+Product Backlog refinement is the act of breaking down and further defining Product Backlog 
+items into smaller more precise items. 
+
+** And Jira ...
+*** EPIC > STORY > SUB-TASK
+*** No value in sub-task
+*** Use of component for other usage
+** Question: difference between Acceptance Criteria and Definition of Done
+   - Acceptance criteria validates the What (functionnal needs).
+   - Definition of Done validates the How (non-functionnal needs).
+
+
+
+# FIXME : 13 min
