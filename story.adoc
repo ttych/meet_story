@@ -1,0 +1,60 @@
+= Meet Story
+:author: ttych
+:date: 2021-10-04
+:revnumber: v0.0.1
+:revealjsdir: reveal.js
+:revealjs_theme: beige
+:revealjs_transition: slide
+:revealjs_slideNumber: c/t
+:revealjs_showSlideNumber: speaker
+:revealjs_history: true
+:revealjs_fragmentInURL: true
+:revealjs_controls: true
+:revealjs_controlsLayout: edges
+:revealjs_controlsTutorial: true
+:revealjs_autoPlayMedia: true
+// :revealjs_width: 1408
+// :revealjs_height: 792
+:revealjs_width: 1440
+:revealjs_height: 792
+:revealjs_defaultTiming: 60
+// :revealjs_autoSlide: 60000
+// :revealjs_viewDistance: 3
+// :revealjs_transitionSpeed: fast
+:customcss: presentation.css
+:icons: font
+:source-highlighter: rouge
+// :source-highlighter: highlightjs
+// :highlightjs-theme: css/atom-one-light.css
+:imagesdir: images
+
+[.notes]
+--
+* Using the word *Story* a lot.
+* Understand the *Story* concept, and all *activities* around it.
+* overview, so named *Meet Story*.
+--
+
+include::story_base.adoc[]
+
+include::story_history.adoc[]
+
+include::story_story.adoc[]
+
+include::story_flow.adoc[]
+
+include::story_refinement.adoc[]
+
+include::story_splitting.adoc[]
+
+include::story_backlog.adoc[]
+
+include::story_minimum-product.adoc[]
+
+include::story_scrum.adoc[]
+
+include::story_jira.adoc[]
+
+include::story_questions.adoc[]
+
+include::story_next.adoc[]

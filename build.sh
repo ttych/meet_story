@@ -11,7 +11,7 @@ BUILD_PORT="${BUILD_PORT:-5123}"
 BUILD_CUSTOMCSS="${BUILD_CUSTOMCSS:-presentation.css}"
 REAVEALJS_VERSION="${REAVEALJS_VERSION:-3.9.2}"
 BUILD_REVEALJS_DIR="reveal.js-${REAVEALJS_VERSION}"
-
+BUILD_IMAGES_DIR="images"
 
 if [ ! -d "${BUILD_DIR}" ]; then
     mkdir -p "${BUILD_DIR}"
@@ -28,6 +28,11 @@ build()
             cp "$BUILD_CUSTOMCSS" "${BUILD_DIR}/${BUILD_CUSTOMCSS_DIR}/"
             ;;
     esac
+
+    if [ -n "$BUILD_IMAGES_DIR" ] && [ -d "$BUILD_IMAGES_DIR" ]; then
+        rm -Rf "$BUILD_DIR/$BUILD_IMAGES_DIR" &&
+            cp -Rp "$BUILD_IMAGES_DIR" "$BUILD_DIR/$BUILD_IMAGES_DIR"
+    fi
 
     bundle exec asciidoctor-revealjs \
            -a revealjsdir="${BUILD_REVEALJS_DIR}" \

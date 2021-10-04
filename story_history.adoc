@@ -1,0 +1,16 @@
+== History
+
+[%notitle]
+=== Timeline
+[%step]
+- *1999*: *eXtreme Programming*, User Stories and the planning game.
+- *2001*: *3C* formula for user story creation.
+- *2001*: *Connextra template*, As a/I can/So that.
+- *2004*: Generalization of the user story principles.
+- *2009*: BDD and the Given/When/Then.
+- *2005-2014*: User Story mapping.
+- *2010*: first version of the Scrum Guide.
+
+=== 3C
+
+image::3C.png[3C]

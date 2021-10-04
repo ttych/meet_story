@@ -1,0 +1,53 @@
+
+/* ------------------------------------------------------ The refs section */
+DIV.refs {
+    background-color: rgba(255,255,255,0);
+    border-top: 1px solid rgba(0,0,0,.2);
+    padding: 2px 0 0 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: right;
+}
+
+DIV.refs P, DIV.refs P A {
+    color: rgba(0,0,0,.4);
+    margin: 0;
+}
+
+DIV.refs DIV.ulist {
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+    line-height: 0.9;
+}
+
+DIV.refs DIV.ulist UL {
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+DIV.refs DIV.ulist UL LI {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+/* hovering effects */
+DIV.refs:hover {
+    background-color: #745d4860;
+    cursor: pointer;
+}
+DIV.refs:hover LI P {
+    color: black;
+}
+DIV.refs LI:hover P A {
+    text-decoration: underline;
+    color: blue;
+}
+
+div.margin-left-25 {
+    margin-left: 25%;
+}

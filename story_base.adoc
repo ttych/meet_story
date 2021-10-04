@@ -1,0 +1,8 @@
+== Base Definition
+
+[%notitle]
+=== Definition
+
+>  A story is an informal, natural language description of features.
+>  May be written by different stakeholders like client,
+>  user, manager, or development team.
