@@ -5,11 +5,13 @@
 
 * ToDo
 * Story
-** Basic Definition
+** DONE Basic Definition
+   - State "DONE"       from              [2021-10-05 mar. 11:09]
   A story is an informal, natural language description of features.
   May be written by different stakeholders like client, user, manager, or
   development team.
-** History
+** DONE History
+   - State "DONE"       from              [2021-10-05 mar. 11:09]
 *** 1999: eXtreme Programming and the usage of user stories in the planning game.
     by Kent Beck.
     - fit on one card.
@@ -269,4 +271,3 @@ items into smaller more precise items.
 # FIXME : 13 min
 ** Next
 *** feedback / Roti ?
-*** 
