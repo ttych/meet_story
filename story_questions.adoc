@@ -1,1 +1,10 @@
 == ¿ Questions ?
+
+
+=== Difference between [.nobreak]#Acceptance Criteria# and [.nobreak]#Definition of Done# ?
+
+[step=1]
+--
+* *Acceptance criteria* validates the *WHAT* (functionnal needs).
+* *Definition of Done* validates the *HOW* (non-functionnal needs).
+--

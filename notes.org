@@ -262,12 +262,10 @@ items into smaller more precise items.
 *** EPIC > STORY > SUB-TASK
 *** No value in sub-task
 *** Use of component for other usage
-** Question: difference between Acceptance Criteria and Definition of Done
+** DONE Question: difference between Acceptance Criteria and Definition of Done
+   - State "DONE"       from              [2021-10-05 mar. 19:20]
    - Acceptance criteria validates the What (functionnal needs).
    - Definition of Done validates the How (non-functionnal needs).
-
-
-
-# FIXME : 13 min
-** Next
+** DONE Next
+   - State "DONE"       from              [2021-10-05 mar. 19:18]
 *** feedback / Roti ?
