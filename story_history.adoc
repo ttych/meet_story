@@ -1,6 +1,27 @@
 == History
 
 
+=== 1995 - 2001: Scrum (Ken Schwaber, Jeff Sutherland)
+
+[%step]
+- multiple contributions: Mike Beedle, ...
+- 2001: "Agile Software Development with Scrum" book.
+- 2010: First version of the *Scrum Guide* is published.
+- 2020: Latest release of The *Scrum Guide*.
+
+[.refs]
+--
+* https://en.wikipedia.org/wiki/Scrum_(software_development)
+--
+
+[.notes]
+--
+* Ken Schwaber is an link:https://agilemanifesto.org/[Agile Manifesto] author.
+* Jeff Sutherland is an link:https://agilemanifesto.org/[Agile Manifesto] author.
+* Mike Beedle is an link:https://agilemanifesto.org/[Agile Manifesto] author.
+--
+
+
 === 1999: eXtreme Programming (Kent Beck)
 
 [%step]
@@ -16,9 +37,11 @@
 * Kent Beck has popularized the *TDD* practice.
 --
 
+[%notitle]
 === 2001: 3C (Ron Jeffries)
 
 image::3C.fr.png[3C,950]
+
 
 === 2001: 3C (Ron Jeffries)
 
@@ -37,12 +60,13 @@ image::3C.fr.png[3C,950]
 * Ron Jeffries is an link:https://agilemanifesto.org/[Agile Manifesto] author.
 --
 
+
 === 2001: Connextra (Rachel Davies & Tim McKinnon)
 
 [%step]
-- As a <role>,
-  I can <capability>,
-  So that <receive benefit>.
+- *As a* <role>,
+  *I can* <capability>,
+  *So that* <receive benefit>.
 - *role* / *feature* / *reason*
 - *who* / *what* / *why*
 
@@ -52,15 +76,56 @@ image::3C.fr.png[3C,950]
 --
 
 
+=== 2004: The User Story principles (Mike Cohn)
+
+[%step]
+- As a <role>,
+  I want <feature>,
+  In order to <receive benefit>.
+
+=== 2009: BDD and the Given-When-Then (Dan North)
+
+[%step]
+- *Given* some context,
+  *When* some action is carried out,
+  *Then* a particular set of observable consequences should obtain.
+
+=== 2005 to 2014: User Story mapping (Jeff Patton)
+
+- adapted to split workflow
 
 
 [%notitle]
 === Timeline
+
 [%step]
-- *1999*: eXtreme Programming*, User Stories and the planning game.
-- *2001*: 3C* formula for User Story creation.
-- *2001*: Connextra format, "role / feature / reason"
-- *2004*: Generalization of the user story principles.
-- *2009*: BDD and the Given/When/Then.
+- *1999*: *eXtreme Programming*, User Stories and the planning game.
+- *2001*: *3C* formula for User Story creation.
+- *2001*: Connextra format, "role / feature / reason".
+- *2004*: Generalization of the *User Story* principles.
+- *2009*: *BDD* and the Given/When/Then.
 - *2005-2014*: User Story mapping.
-- *2010*: first version of the Scrum Guide.
+- *2010*: First version of the *Scrum* Guide.
+
+
+[.columns]
+=== So:
+
+[.column,step=1]
+--
+add
+
+* focus on the value
+* focus on the end-user
+* add visibility
+* add transparency
+--
+
+[.column,step=2]
+--
+identify early
+
+* the *end-user*
+* the *value*
+* when completed
+--
