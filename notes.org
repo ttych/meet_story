@@ -94,7 +94,7 @@
 *** Who write user story ?
 **** Product owner
      - ensure the Product Backlog exists
-     - prioritize the user stories
+     - prioritize the user stories in the Product Backlog
 **** Anyone can contribute/write user stories
 *** When do we write user story ?
 **** during the all life of the product
@@ -105,27 +105,6 @@
 **** Technical Story
 **** Bug
 **** Debt
-*** Estimate
-**** Story points
-     Story points are the effort to do something based on
-     the volume, risk, uncertainty and complexity of the work.
-**** Workshop: Planning Poker
-*** No Estimate
-**** Slicing not based on Story points
-     Neil Killick - 2016
-     Define Slicing Heuristics.
-
-     - Product Owner prioritises features.
-     - PO slices feature into user stories.
-     - "If feature contains more than 4 stories, it is sliced into 2 or more features".
-     - In Sprint Planning, team creates acceptance tests for each user story.
-     - "If there is more than 1 acceptance test, story is sliced into 2 or more stories".
-
-     Then:
-     - measure story cycle time, if longer than 3 days, flag for conversation.
-     - measure feature cycle time, if longer than is acceptable, adapt the heuristics.
-
-     https://neilkillick.medium.com/my-slicing-heuristic-concept-explained-810ee70b311e
 ** Flow
 *** Vision (by Primary Stake-holder)
     Define the target state.
@@ -156,6 +135,7 @@
     Example:
     - "A feature ready to be worked on must consist of no more than 4 groomed user stories".
     - “A user story ready to be worked on must have only one acceptance test”.
+*** just enough for the current (and next ?) sprint
 ** Splitting story
 *** Why
 **** easier to understand
@@ -164,10 +144,44 @@
      remove not essential / irrelevant scenarios
 **** provides faster feedback loop
      small stories could be delivered sooner
-*** Focus
+*** How
     A user story is shippable and valuable to the customer.
     When value will be delivered to the end-user ?
     At the end of all sub-stories, then it is waterfall approach .
+    Limit to split is the task.
+    Split vertically (vs horizontally) (eat a cake)
+*** who
+    common activities (not only one, bring perspective, knowledge)
+*** when
+    longer than 1 sprint
+    not confortable to work with ? too complex ? too long ?
+*** WAZUR
+**** Workflow steps
+     example: pay the shopping cart
+     - login
+     - confirm order
+     - pay order
+     - receive order confirmation
+**** Acceptance criteria
+***** Zero / One / Many
+     example: shopping cart checkout
+     - zero item
+     - one item
+     - multiple item
+***** Happy / Unhappy PATH
+     example: login
+     - login
+     - reset password
+     - lock account after 3 attempts
+***** User role / Persona
+      example:
+      as a , I can create dashboard here and here
+***** Rules
+      example:
+      - not shipping to specific country
+      - shipping cost for specific region
+      - lock product
+      - cancel order after 48 hours
 *** (User) Story mapping
     https://manifesto.co.uk/user-story-mapping/
     https://jpattonassociates.com/user-story-mapping/
@@ -176,6 +190,40 @@
     # FIXME
 *** Example mapping
     # FIXME
+** Estimate
+*** Estimate
+**** T-shirt
+     at the level of epics and feature
+**** Story points
+     depends on :
+     - definition of done
+     - reference storise
+
+     Story points are the effort to do something based on
+     the volume, risk, uncertainty and complexity of the work.
+     = Complexity + Risk + Effort
+**** Workshop: Planning Poker
+*** No Estimate
+**** 4 Claims
+***** Estimates are always inaccurate and therefore pointless.
+***** Estimates are assumed to be important.
+***** Estimates are padded with buffers.
+***** Estimates are a waste of valuable time.
+**** Slicing not based on Story points
+     Neil Killick - 2016
+     Define Slicing Heuristics.
+
+     - Product Owner prioritises features.
+     - PO slices feature into user stories.
+     - "If feature contains more than 4 stories, it is sliced into 2 or more features".
+     - In Sprint Planning, team creates acceptance tests for each user story.
+     - "If there is more than 1 acceptance test, story is sliced into 2 or more stories".
+
+     Then:
+     - measure story cycle time, if longer than 3 days, flag for conversation.
+     - measure feature cycle time, if longer than is acceptable, adapt the heuristics.
+
+     https://neilkillick.medium.com/my-slicing-heuristic-concept-explained-810ee70b311e
 ** Backlog
 *** DEEP
     Detailed
