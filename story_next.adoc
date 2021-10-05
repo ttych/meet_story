@@ -1,1 +1,11 @@
 == Next
+
+[%notitle]
+=== ROTI
+
+image::ROTI.png[ROTI,950]
+
+
+=== Next Topics to address ?
+
+image::question.jpg[question,,500]
