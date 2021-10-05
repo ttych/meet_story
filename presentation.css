@@ -9,6 +9,7 @@ DIV.refs {
     left: 0;
     bottom: 0;
     text-align: right;
+    font-size: 0.9rem;
 }
 
 DIV.refs P, DIV.refs P A {
@@ -50,4 +51,26 @@ DIV.refs LI:hover P A {
 
 div.margin-left-25 {
     margin-left: 25%;
+}
+
+DIV.heads {
+    background-color: rgba(255,255,255,0);
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    padding: 2px 0 0 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: right;
+    font-size: 0.9rem;
+}
+
+DIV.l-nobullet ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+DIV.l-compact ul li:not(first-child) p {
+  margin: 0;
 }

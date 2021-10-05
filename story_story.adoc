@@ -5,49 +5,102 @@
 * WHAT / WHY / HOW / WHO / WHEN
 --
 
+
 === WHAT is a user story ?
 
-**** smallest piece work that has a value to the end-user
-**** contains
-***** Statement
-      As a <role>,  <- WHO
-      I want <feature>,  <- WHAT
-      So that <benefit>.  <- WHY
-***** Description: to give context
-      - explanation of the user journey
-      - use cases
-      - general information
-      - pictures
-      - design
-***** Acceptence criteria <- HOW (VALIDATION)
-      - condition to validate the implementation of the user story
+[%step]
+> The smallest piece work that has a value to the end-user.
 
 
+[.columns]
+[%notitle]
+=== WHAT is a user story ?
+
+[.column.has-text-left,step=1]
+--
+*Statement*
+
+As a <role>, +
+I want <feature>, +
+So that <benefit>.
+--
+
+[.column.has-text-left,step=2]
+--
+*Description*
+
+* explanation of the user journey
+* use cases
+* general information
+* pictures
+* design
+--
+
+[.column.has-text-left,step=3]
+--
+*Acceptence criteria*
+
+* condition to validate the implementation of the user story
+--
+
+[.heads]
+--
+WHAT (2)
+--
+
+
+[.columns]
 === WHY do we write user story ?
-**** manage work
-     - estimate
-     - prioritize
-     - plan
-     - work in progress limit
-**** focus
-     - end-user
-     - business value
-**** collaborate
-     - creativity
+
+[.column.has-text-left,step=1]
+--
+*Manage work*
+
+* estimate
+* prioritize
+* plan
+* work in progress limit
+--
+
+[.column.has-text-left,step=2]
+--
+*Focus*
+
+* end-user
+* business value
+--
+
+[.column.has-text-left,step=3]
+--
+*Collaborate*
+
+* creativity
+--
 
 
+[.columns]
 === HOW do we write user story ?
-**** identify
-     end-user (a persona)
-     feature (one action)
-     benefit (measurable, contribute to a goal)
-**** INVEST
-     Independent: Standalone PBI with no dependencies.
-     Negotiable: It can be changed in anytime.
-     Valuable: Having a good value for the end-user.
-     Estimable: The teams is able to estimate its size.
-     Small: Small enough to be developed and tested.
-     Testable: Testing is possible from AC and DOD.
+
+[.column.is-one-third.l-nobullet.l-compact,step=1]
+--
+*Identify*
+
+* end-user (a persona)
+* feature (one action)
+* benefit (measurable)
+--
+
+[.column.l-nobullet.l-compact,step=2]
+--
+*INVEST*
+
+* *Independent*: Standalone PBI with no dependencies. +
+* *Negotiable*: It can be changed in anytime. +
+* *Valuable*: Having a good value for the end-user. +
+* *Estimable*: The teams is able to estimate its size. +
+* *Small*: Small enough to be developed and tested. +
+* *Testable*: Testing is possible from AC and DOD. +
+--
 
 
 === WHO write user story ?
