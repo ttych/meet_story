@@ -47,6 +47,8 @@ include::story_refinement.adoc[]
 
 include::story_splitting.adoc[]
 
+include::story_estimate.adoc[]
+
 include::story_backlog.adoc[]
 
 include::story_minimum-product.adoc[]
