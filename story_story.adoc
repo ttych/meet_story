@@ -1,1 +1,68 @@
 == Story
+
+[.notes]
+--
+* WHAT / WHY / HOW / WHO / WHEN
+--
+
+=== WHAT is a user story ?
+
+**** smallest piece work that has a value to the end-user
+**** contains
+***** Statement
+      As a <role>,  <- WHO
+      I want <feature>,  <- WHAT
+      So that <benefit>.  <- WHY
+***** Description: to give context
+      - explanation of the user journey
+      - use cases
+      - general information
+      - pictures
+      - design
+***** Acceptence criteria <- HOW (VALIDATION)
+      - condition to validate the implementation of the user story
+
+
+=== WHY do we write user story ?
+**** manage work
+     - estimate
+     - prioritize
+     - plan
+     - work in progress limit
+**** focus
+     - end-user
+     - business value
+**** collaborate
+     - creativity
+
+
+=== HOW do we write user story ?
+**** identify
+     end-user (a persona)
+     feature (one action)
+     benefit (measurable, contribute to a goal)
+**** INVEST
+     Independent: Standalone PBI with no dependencies.
+     Negotiable: It can be changed in anytime.
+     Valuable: Having a good value for the end-user.
+     Estimable: The teams is able to estimate its size.
+     Small: Small enough to be developed and tested.
+     Testable: Testing is possible from AC and DOD.
+
+
+=== WHO write user story ?
+**** Product owner
+     - ensure the Product Backlog exists
+     - prioritize the user stories in the Product Backlog
+**** Anyone can contribute/write user stories
+
+
+=== WHEN do we write user story ?
+**** during the all life of the product
+**** split when necessary, on the run
+     refinement, then ready for sprint
+*** Type of Story
+**** User Story
+**** Technical Story
+**** Bug
+**** Debt
