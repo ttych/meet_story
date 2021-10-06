@@ -54,7 +54,8 @@
 **** identify the value
 **** identify end-user
 **** identify when completed
-** Story
+** DONE Story
+   - State "DONE"       from              [2021-10-06 mer. 08:58]
 *** What is a user story ?
 **** smallest piece work that has a value to the end-user
 **** contains
