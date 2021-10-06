@@ -1,50 +1,73 @@
 == Flow
 
+[.columns]
 === Vision
 
-* by the *Primary Stake-holder*.
-** the one that fought for the budget.
-** the real *Product Owner*.
+[.column,step=1]
+--
+* By the *Primary Stake-holder*.
+** The one that fought for the budget.
+** The real *Product Owner*.
 * Define the target state.
+--
 
+[.column.content-border3,step=2]
+--
 .Examples:
 * makes money
 * saves money
 * protects money
+--
 
+
+[.columns]
 === Goal
 
-* by *Incidental Stake-holder*.
-* to achieve the *vision*.
-* needed to go live.
-* do not tend to change.
+[.column,step=1]
+--
+* By *Incidental Stake-holder*.
+* To achieve the *vision*.
+* Needed to go live.
+* Do *not* tend to *change*.
+--
 
+[.column.content-border3,step=2]
+--
 .Examples:
 * cover all region
 * resilient architecture
+--
 
+
+[.columns]
 === Capability
 
-* by *Business Analyst*.
-* Users can achieve a business outcome.
+[.column,step=1]
+--
+* By *Business Analyst*.
+* *Users* can achieve a business outcome.
 * Partially achieve a *Goal*.
 * It still doesn’t matter *how* we achieve the *Capability*.
-* do not tend to change.
+* Do *not* tend to *change*.
+--
 
+[.column.content-border3,step=2]
+--
 .Example:
 * user will be able to deploy on all region, the same way
 * a user documentation will be available for each service
+--
 
 === Feature
 
-* by *UI Designer*.
-* User interface component which enables a capacity.
-* the *how* of the *Capability*.
-* may change.
+* By *UI Designer*.
+* Interface component which enables a capacity.
+* The *how* of the *Capability*.
+* May *change*.
 
 === Story (Developer)
 
-* by *Developer*.
+* By *Developer*.
 * A slice through a feature to enable faster feedback.
 ** Do we understand the Capability ?
 ** Are we delivering the Capability ?
@@ -53,8 +76,8 @@
 --
 Stories are just a slice through a feature to get quick feedback on:
 
-* whether we’re delivering the capability or not!
-* whether we’re understanding it well, or not!
+* Whether we’re delivering the capability or not!
+* Whether we’re understanding it well, or not!
 --
 
 === Scenario (Dev/Tester/Analyst)
