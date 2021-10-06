@@ -16,31 +16,31 @@
 [%notitle]
 === WHAT is a user story ?
 
-[.column.has-text-left,step=1]
+[.column.l-nobullet.l-compact,step=1]
 --
 *Statement*
 
-As a <role>, +
-I want <feature>, +
-So that <benefit>.
+* *As a* <role>,
+* *I want* <feature>,
+* *So that* <benefit>.
 --
 
-[.column.has-text-left,step=2]
+[.column.l-nobullet.l-compact,step=2]
 --
 *Description*
 
-* explanation of the user journey
-* use cases
-* general information
-* pictures
-* design
+* Explanation of the user journey
+* Use cases
+* General information
+* Pictures
+* Design
 --
 
-[.column.has-text-left,step=3]
+[.column.l-nobullet.l-compact,step=3]
 --
 *Acceptence criteria*
 
-* condition to validate the implementation of the user story
+* *Condition to validate* the implementation
 --
 
 [.heads]
@@ -104,18 +104,43 @@ WHAT (2)
 
 
 === WHO write user story ?
-**** Product owner
-     - ensure the Product Backlog exists
-     - prioritize the user stories in the Product Backlog
-**** Anyone can contribute/write user stories
+
+[step=1]
+--
+.The *Product owner*
+* ensures the Product Backlog exists
+* prioritizes the user stories in the Product Backlog
+--
+
+[step=2]
+*Anyone can contribute*/write User Stories.
 
 
 === WHEN do we write user story ?
-**** during the all life of the product
-**** split when necessary, on the run
-     refinement, then ready for sprint
-*** Type of Story
-**** User Story
-**** Technical Story
-**** Bug
-**** Debt
+
+[%step]
+* during the *all life of the product*
+* *refinement* until *Ready* for sprint
+* from a *split* when necessary, on the run
+
+
+=== Type of Story (attribute)
+
+image::story__type.fr.png[Story Type,1000]
+
+[.notes]
+--
+* *User Story*: *add* value for the product *user*
+* *Technical Story*: *add* value for the application *maintainer*
+* *Bug*: *maintain*/*restore* value for the product *user*
+* *Debt*: *maintain*/*restore* value for the product *maintainer*
+
+which distribution is acceptable from an agile point of view ?
+--
+
+=== Type of Story (attribute)
+
+* *User Story*: *add* value for the product *user*
+* *Technical Story*: *add* value for the application *maintainer*
+* *Bug*: *maintain*/*restore* value for the product *user*
+* *Debt*: *maintain*/*restore* value for the product *maintainer*
