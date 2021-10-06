@@ -108,7 +108,8 @@
 **** Technical Story
 **** Bug
 **** Debt
-** Flow
+** DONE Flow
+   - State "DONE"       from              [2021-10-06 mer. 16:45]
 *** Vision (by Primary Stake-holder)
     Define the target state.
     ex:
@@ -127,7 +128,8 @@
     An example of how the system might behave from a user perspective.
 *** Implement (Developer)
     Ideas turning into reality.
-** Refinement
+** DONE Refinement
+   - State "DONE"       from "TODO"       [2021-10-06 mer. 16:45]
 *** The 3 Amigos
     3 perspectives with as small a group as possible
     For example:
