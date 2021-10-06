@@ -8,3 +8,9 @@
 * *Acceptance criteria* validates the *WHAT* (functionnal needs).
 * *Definition of Done* validates the *HOW* (non-functionnal needs).
 --
+
+=== Difference between a [.nobreak]#user feature# and a [.nobreak]#product feature# ?
+
+[step=1]
+--
+--
