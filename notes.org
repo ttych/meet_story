@@ -263,6 +263,8 @@ items into smaller more precise items.
 *** EPIC > STORY > SUB-TASK
 *** No value in sub-task
 *** Use of component for other usage
+*** Flow to Ready
+*** Flow to Done
 ** DONE Question: difference between Acceptance Criteria and Definition of Done
    - State "DONE"       from              [2021-10-05 mar. 19:20]
    - Acceptance criteria validates the What (functionnal needs).
