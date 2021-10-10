@@ -1,1 +1,186 @@
 == Splitting story
+
+
+=== Why
+
+* easier to understand
+* helps to identifying waste
+* provides faster feedback loop
+
+[.notes]
+--
+* so less miss-understanding on what is included or not
+* so remove not essential / irrelevant scenarios
+* because small stories could be delivered sooner
+--
+
+=== How
+
+* A user story is shippable and valuable to the customer.
+* So when value will be delivered to the end-user ?
+* Vertical split (end-user focus) vs. horizontal (tech. focus) split.
+
+[.notes]
+--
+.waterfall vs. agile
+* delivering value at the end, is waterfall approach.
+* delivering value at each step, is agile approach.
+
+* Limit to split is the task.
+--
+
+[%notitle]
+=== How
+
+[.heads]
+--
+HOW
+--
+
+image:splitting_horizontal_and_vertical_cake.png[Cake,,600]
+
+[%notitle]
+=== How
+
+[.heads]
+--
+HOW
+--
+
+image:splitting_horizontal_and_vertical_slices.png[Slices,,600]
+
+=== who
+
+[%step]
+* *common* activity
+* *collaborative* activity
+* bring *perspective*, *knowledge*
+
+[.notes]
+--
+*not only done by one.
+--
+
+=== when
+
+not confortable to work with ?
+
+[%step]
+* too *complex* ?
+* too *long* (longer than 1 sprint) ?
+* too *risky* ?
+
+=== Criteria
+
+[%step]
+* Workflow
+* Acceptance criteria
+** Zero / One / Many
+** Happy Path / Unhappy Path
+** User role / Persona
+** Business Rules
+
+=== Workflow steps
+
+[.heads]
+--
+Criteria
+--
+
+.example: pay the shopping cart
+* login
+* confirm order
+* pay order
+* receive order confirmation
+
+=== Acceptance criteria
+
+[.heads]
+--
+Criteria
+--
+
+Try to split by acceptance criteria when possible.
+
+=== Zero / One / Many
+
+[.heads]
+--
+Criteria / Acceptance criteria
+--
+
+.example: shopping cart checkout
+* zero item
+* one item
+* multiple item
+
+=== Happy / Unhappy PATH
+
+[.heads]
+--
+Criteria / Acceptance criteria
+--
+
+.example: login
+* login
+* reset password
+* lock account after 3 attempts
+
+=== User role / Persona
+
+[.heads]
+--
+Criteria / Acceptance criteria
+--
+
+[.l-nobullet]
+--
+.example:
+* *As a* <persona1> , *I want to* <action>, *So that* <benefit>.
+--
+
+[.notes]
+--
+* shopping cart TVA, depending on the destination country, the reduced TVA for company, ...
+--
+
+=== Business Rules
+
+[.heads]
+--
+Criteria / Acceptance criteria
+--
+
+.example:
+* not shipping to specific country
+* shipping cost for specific region
+* lock product
+* cancel order after 48 hours
+
+=== (User) Story mapping
+
+image:user-story_mapping.png[User-Story_mapping,,580]
+
+[.refs]
+--
+* https://manifesto.co.uk/user-story-mapping/
+* https://jpattonassociates.com/user-story-mapping/
+--
+
+=== Burger Split
+
+image:hamburger_method.jpg[Burger_method,,560]
+
+[.refs]
+--
+* https://www.slideshare.net/StephenTucker4/splitting-stories-with-the-hamburger-method-a-simple-5-step-process
+--
+
+=== Example mapping
+
+image:example-mapping.png[Example-mapping,,560]
+
+[.refs]
+--
+* https://www.youtube.com/watch?v=VwvrGfWmG_U
+--

@@ -141,7 +141,8 @@
     - "A feature ready to be worked on must consist of no more than 4 groomed user stories".
     - “A user story ready to be worked on must have only one acceptance test”.
 *** just enough for the current (and next ?) sprint
-** Splitting story
+** DONE Splitting story
+   - State "DONE"       from              [2021-10-07 jeu. 08:28]
 *** Why
 **** easier to understand
      so less miss-understanding on what is included or not
@@ -195,7 +196,8 @@
     # FIXME
 *** Example mapping
     # FIXME
-** Estimate
+** DONE Estimate
+   - State "DONE"       from              [2021-10-07 jeu. 10:19]
 *** Estimate
 **** T-shirt
      at the level of epics and feature
@@ -229,7 +231,8 @@
      - measure feature cycle time, if longer than is acceptable, adapt the heuristics.
 
      https://neilkillick.medium.com/my-slicing-heuristic-concept-explained-810ee70b311e
-** Backlog
+** DONE Backlog
+   - State "DONE"       from              [2021-10-07 jeu. 10:21]
 *** DEEP
     Detailed
     Estimated
@@ -238,7 +241,8 @@
 *** Prioritization
 **** MoSCoW
 **** WSJF
-** Minimum product
+** DONE Minimum product
+   - State "DONE"       from              [2021-10-07 jeu. 10:21]
 *** MVP
     Minimum Viable Product will be the minimum product (or service) that will test a hypothesis.
 *** MMF
@@ -252,7 +256,8 @@
   If the hypothesis is validated, we define the essential minimum of each of the functionalities to be delivered to reach our customers: MMFs.
   We define the minimum delivery that we will accept to launch the product: MMR (set of MMF).
   The first MMR will be considered as the minimum product that will delivery to satisfy our key users: MMP (first MMR).
-** And Scrum
+** DONE And Scrum
+   - State "DONE"       from              [2021-10-07 jeu. 10:21]
 *** not prescriptive on Story
 *** wording used: work, Product Backlog Item, Task
 *** This is often done by decomposing Product Backlog items into smaller work items of one day or less.
@@ -261,7 +266,8 @@
 Product Backlog refinement is the act of breaking down and further defining Product Backlog 
 items into smaller more precise items.
 *** good story => transparency => inspection => adaptation
-** And Jira ...
+** DONE And Jira ...
+   - State "DONE"       from              [2021-10-07 jeu. 10:21]
 *** EPIC > STORY > SUB-TASK
 *** No value in sub-task
 *** Use of component for other usage

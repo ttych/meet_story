@@ -1,1 +1,110 @@
 == Estimate
+
+=== Estimate
+
+* Refine Estimates progressively.
+* as Refining Story progressively
+** progressively refined
+** progressively detailed
+** progressively precised
+
+=== T-Shirt sizing
+
+[.heads]
+--
+Estimate
+--
+
+* Epics
+* Feature
+* Large User-Story
+
+[.notes]
+--
+* lack of details
+* lack of granularity in User Story
+--
+
+=== Story points
+
+> Story points are the effort to do something based on
+> the volume, risk, uncertainty and complexity of the work.
+
+=== Prerequisite
+
+[.heads]
+--
+Story points
+--
+
+* Definition of Done (as a Quality Check list)
+
+* Reference stories (Complexity, Risk, Effort)
+
+[%notitle]
+=== Planning Poker [Workshop]
+
+[.heads]
+--
+Story points
+--
+
+image::planning_poker.jpg[Plannig Poker,,700]
+
+=== NoEstimate
+
+.4 Claims
+* Estimates are *always inaccurate* and therefore *pointless*.
+* Estimates are *assumed to be important*.
+* Estimates are *padded with buffers*.
+* Estimates are a *waste of valuable time*.
+
+[.notes]
+--
+* started in 2012 with *Woody Zuill*
+
+.4 claims questions ?
+* handling correctly complexity to estimate ?
+* are estimates always benefitial ?
+* misstrust between team, managers, clients ? transparency ?
+* spend time on useless tasks ? lean ?
+--
+
+[%notitle]
+=== NoEstimate
+
+[.heads]
+--
+NoEstimate
+--
+
+Slicing is not based on Story points.
+
+[%notitle]
+=== NoEstimate
+
+[.heads]
+--
+NoEstimate
+--
+
+.Slicing Heuristics
+* Product Owner prioritises features.
+* PO slices feature into user stories.
+* "If feature contains more than 4 stories, it is sliced into 2 or more features".
+* In Sprint Planning, team creates acceptance tests for each user story.
+* "If there is more than 1 acceptance test, story is sliced into 2 or more stories".
+
+.Then
+* Measure story cycle time, if longer than 3 days, flag for conversation.
+* Measure feature cycle time, if longer than is acceptable, adapt the heuristics.
+
+[.refs]
+--
+* https://neilkillick.medium.com/my-slicing-heuristic-concept-explained-810ee70b311e
+--
+
+[.notes]
+--
+* by *Neil Killick*, 2016
+--

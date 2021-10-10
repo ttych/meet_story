@@ -1,1 +1,71 @@
 == Refinement
+
+=== Purpose
+
+* Reduce *Complexity*.
+* Reduce *Risk*.
+* Reduce *Effort*.
+* Progressively *Detailed*.
+* Progressively *Precised*.
+* Have Item *Ready* for development.
+
+[.notes]
+--
+* ease *Sprint Planning*
+* ease *PI Planning*
+--
+
+
+[.columns]
+=== Input / Output
+
+[.column]
+--
+.Input
+* *Feature* or *User Story* available
+* *Product Owner* to present the Item
+* *Developer* that will work on Item
+--
+
+[.column]
+--
+.Output
+* Item in *Ready* state in the Backlog
+* Refined Item
+** Less *Complex*
+** Less *Riksy*
+** Less *Effort*
+--
+
+
+=== Scope
+
+* just enough for the current (and next ?) sprint
+* will learn from the next iteration to refine the next steps
+
+
+=== Definition of Ready
+
+Criteria for a *User Story*, to start implementation.
+
+.Example
+* A feature ready to be worked on must consist of no more than 4 groomed user stories.
+* A user story ready to be worked on must have only one acceptance test.
+* Have an estimation.
+* Be ordered.
+
+
+[%notitle]
+=== Backlog Refinement Flow
+
+image::backlog_refinement.png[Backlog Refinement,900]
+
+
+=== The 3 Amigos [Workshop]
+
+Provides 3 perspectives with as small a group as possible.
+
+.For example
+* *Product Owner* : focus on business, value,
+* *Scrum Master* : focus on effectiveness,
+* *Developer* : focus on quality.

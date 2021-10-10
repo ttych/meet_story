@@ -1,1 +1,22 @@
 == Backlog
+
+=== DEEP
+
+[.l-nobullet]
+--
+* Detailed
+* Estimated
+* Emergent
+* Prioritized
+--
+
+
+=== Prioritization
+
+[.l-nobullet]
+--
+* MoSCoW
+* WSJF
+* ...
+--
+

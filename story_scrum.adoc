@@ -1,1 +1,32 @@
 == And Scrum ...
+
+
+=== on Story
+
+* No prescription on Story
+* Wording used: work, Product Backlog Item, Task
+
+
+=== on Ready
+
+> Product Backlog items that can be Done by the Scrum Team within one Sprint are
+  deemed ready for selection in a Sprint Planning event. They usually acquire
+  this degree of transparency after refining activities.
+
+
+=== on Refinement
+
+> Product Backlog refinement is the act of breaking down and further defining
+  Product Backlog items into smaller more precise items.
+
+> This is often done by decomposing Product Backlog items into smaller work
+  items of one day or less. How this is done is at the sole discretion of the
+  Developers.
+
+=== Principle
+
+[.l-nobullet]
+--
+* A good Product Backlog Item has transparency.
+* Transparency => Inspection => Adaptation.
+--

@@ -1,1 +1,59 @@
 == Minimum product
+
+
+=== MVP - Minimum Viable Product
+
+> MVP is that version of the product which allows a team to collect the maximum
+  amount of validated learning about customers with the least effort.
+
+.Viable:
+* Do people want this thing ?
+* Will people pay for this thing ?
+* Is there a place for this thing in the real market ?
+
+[.notes]
+--
+* popularized by the book *The Lean Startup*, by *Eric Ries*.
+* different of a prototype:
+** *MVP* needs to be validated by a measurable experiment in a real world.
+    market.
+--
+
+
+=== MMF - Minimum Marketable Feature
+
+> The Minimum Marketable Feature is the smallest unit of functionality with
+  intrinsic market value.
+
+* is a real feature that provides tangible value to customers.
+* is a feature that can be marketed, sold and shipped.
+
+[.notes]
+--
+* popularized by the book *Software by Numbers*, by *Mark Denne*.
+--
+
+=== MMP - Minimum Marketable Product
+
+* the first MMR.
+* will incorporate the “nice to have” functionality at a later stage.
+
+=== MMR - Minimum Marketable Release
+
+> Some atomic unit of value to the market or customer.
+
+[.notes]
+--
+* popularized by the book *Kanban: Successful Evolutionary Change for Your
+  Technology Business*, by *Anderson, D. J.*
+--
+
+=== Relation
+
+. We test a product/service with the *MVP*.
+. If the hypothesis is validated, we define the essential minimum of each of the
+  functionalities to be delivered to reach our customers: *MMF*s.
+. We define the minimum delivery that we will accept to launch the product: *MMR*
+  (set of *MMF*).
+. The first *MMR* will be considered as the minimum product that will delivery to
+  satisfy our key users: *MMP* (first *MMR*).

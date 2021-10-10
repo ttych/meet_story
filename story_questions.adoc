@@ -9,6 +9,15 @@
 * *Definition of Done* validates the *HOW* (non-functionnal needs).
 --
 
+[.notes]
+--
+.Acceptance criteria
+* specific to each User Story
+
+.Definition of Done
+* apply to all User Story (without exception)
+--
+
 === Difference between a [.nobreak]#user feature# and a [.nobreak]#product feature# ?
 
 [step=1]

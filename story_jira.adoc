@@ -1,1 +1,35 @@
 == And Jira ...
+
+=== Story type
+
+.3 levels
+* Epic : Large User-Story ?
+* Story : Smallest User-Story ?
+* Sub-Task: No Value
+
+=== Story Workflow
+
+image:jira_workflow.png[Jira_workflow,,650]
+
+=== Workflow to Ready
+
+[%step]
+* *Product Backlog* management
+* From *Funnel* to *Ready*
+
+=== Sprint Planning
+
+[%step]
+* *Sprint Planning*
+* From *Ready* to *To Do*
+
+=== Workflow to Done
+
+[%step]
+* *Sprint Backlog* management
+* From *To Do* to *Done*
+
+[%notitle]
+=== Story Workflow
+
+image:story_workflow_full.jpg[Story workflow,,400]
