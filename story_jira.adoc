@@ -33,3 +33,8 @@ image:jira_workflow.png[Jira_workflow,,650]
 === Story Workflow
 
 image:story_workflow_full.jpg[Story workflow,,400]
+
+[%notitle]
+=== Backlog Workflow 2
+
+image:backlog_workflow.jpg[Story workflow,,700]
